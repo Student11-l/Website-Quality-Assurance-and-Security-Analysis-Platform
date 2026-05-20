@@ -1,0 +1,36 @@
+# Core
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# HTTP & Parsing
+requests==2.31.0
+beautifulsoup4==4.12.2
+urllib3==2.0.4
+
+# Database
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.23
+
+# Background Jobs (Redis optional - falls back to in-process)
+rq==1.16.1
+redis==5.0.1
+
+# Caching
+Flask-Caching==2.1.0
+
+# Rate Limiting
+Flask-Limiter==3.5.0
+
+# Auth & Security
+Flask-Login==0.6.3
+PyJWT==2.8.0
+itsdangerous==2.1.2
+
+# CORS
+Flask-CORS==4.0.0
+
+# PDF Export
+reportlab==4.0.7
+
+# Environment
+python-dotenv==1.0.0
